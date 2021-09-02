@@ -4,17 +4,19 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #002451, #04418d);
+    background: linear-gradient(to right, #011053, #1a2186);
 }
 .calculator-grid{
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);  
 }
 
+.title{   
+    color: #fff; font-family:'Raleway',sans-serif; font-size: 45px; font-weight: 800; line-height: 48px;
+}
 .calculator-grid > button{
     cursor: pointer;
     font-size: 2rem;
